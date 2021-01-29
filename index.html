@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>3D Cube Animation</title>
+  </head>
+  <body>
+    <h1>3D Cube Animation</h1>
+    <div class="scene">
+      <div class="cube">
+        <div class="cube__face cube__face--front">Front</div>
+        <div class="cube__face cube__face--back">Back</div>
+        <div class="cube__face cube__face--left">Left</div>
+        <div class="cube__face cube__face--right">Right</div>
+        <div class="cube__face cube__face--top">Top</div>
+        <div class="cube__face cube__face--bottom">Bottom</div>
+      </div>
+    </div>
+
+    <div class="radio-group">
+      <input type="radio" name="rotate" id="front" value="front" checked />
+      <label for="front">Front</label>
+
+      <input type="radio" name="rotate" id="back" value="back" />
+      <label for="back">Back</label>
+
+      <input type="radio" name="rotate" id="left" value="left" />
+      <label for="left">Left</label>
+
+      <input type="radio" name="rotate" id="right" value="right" />
+      <label for="right">Right</label>
+
+      <input type="radio" name="rotate" id="top" value="top" />
+      <label for="top">Top</label>
+
+      <input type="radio" name="rotate" id="bottom" value="bottom" />
+      <label for="bottom">Bottom</label>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
